@@ -10,10 +10,15 @@
 4. download Service Account Key
 5. copy file to root folder
 6. rename "serviceAccountKey.json"
-7. npm install
-8. firebase use <YOUR-PROJECT-ID>
-9. npm run build
-10. firebase deploy
+``` bash
+7. $ npm install
+8. $ firebase use <YOUR-PROJECT-ID>
+9. $ npm run build
+10.$ firebase deploy
+```
+## Live Demo
+
+https://nuxtjs-express-7b1a7.firebaseapp.com/
 
 ## Build Setup
 
