@@ -1,9 +1,13 @@
-const functions = require('firebase-functions');
-const router = require('./functions/routes');
-const express = require('express');
-const { Nuxt } = require('nuxt');
-const nuxtConfig = require('./nuxt.config.js');
+const functions = require('firebase-functions')
+const router = require('./functions/routes')
+//require('dotenv').config()
+const cors = require('cors')
+const express = require('express')
+const { Nuxt } = require('nuxt')
+const nuxtConfig = require('./nuxt.config.js')
 const app = express()
+
+app.use(cors())
 const config = {
   ...nuxtConfig,
     dev: false,
