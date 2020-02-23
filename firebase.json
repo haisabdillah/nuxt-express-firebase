@@ -1,0 +1,19 @@
+{
+  "functions": {
+    "source": "."
+  },
+  "hosting": {
+    "public": ".nuxt/dist/client",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "/**",
+        "function": "client"
+      }
+    ]
+  }
+}
