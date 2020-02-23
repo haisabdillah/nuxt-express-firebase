@@ -1,6 +1,6 @@
 const functions = require('firebase-functions')
-const router = require('./functions/routes')
-//require('dotenv').config()
+//const router = require('./functions/routes')
+require('dotenv').config()
 const cors = require('cors')
 const express = require('express')
 const { Nuxt } = require('nuxt')
@@ -16,7 +16,7 @@ const config = {
 const nuxt = new Nuxt(config);
 
  
-app.use(router)
+//app.use(router)
 exports.api = functions.https.onRequest(app);
 exports.client = functions.https.onRequest(async (req, res) => {
     await nuxt.ready();

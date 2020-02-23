@@ -1,6 +1,11 @@
 <template>
   <div>
-    <h1>Created by haismansyah Abdillh</h1>
+    <div class="d-flex justify-center align-center">
+      <div style="margin-top:15%" >
+      <h3>Created: Haismansyah Abdillah</h3>
+      </div>
+     
+    </div>
   </div>
 </template>
 

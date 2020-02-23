@@ -2,15 +2,19 @@
 
 > Setting NUXT EXPRESS FIREBASE
 
-## Tutorial
-``` bash
-$ Clone or download file
-$ go to firebase console
-$ download Service Account Key
-$ copy file to root folder
-$ rename "serviceAccountKey.json"
-$ npm install
-```
+## Instalation
+
+1. Clone or download file
+2. go to firebase console
+3. create your project
+4. download Service Account Key
+5. copy file to root folder
+6. rename "serviceAccountKey.json"
+7. npm install
+8. firebase use <YOUR-PROJECT-ID>
+9. npm run build
+10. firebase deploy
+
 ## Build Setup
 
 
