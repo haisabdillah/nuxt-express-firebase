@@ -1,5 +1,5 @@
 {
-  "name": "nuxjs-express-firebase",
+  "name": "ekms",
   "description": "Cloud Functions for Firebase",
   "scripts": {
     "serve": "firebase serve --only functions",
